@@ -16,7 +16,12 @@ export const CustomerViews = ({ currentUser }) => {
                     </>
                 }
             >
-                <Route index element={<Welcome />} />
+                <Route index element={
+                <>
+                <Welcome />
+                </>
+                
+                } />
                 <Route 
                     path="tickets" 
                 >
